@@ -1,0 +1,148 @@
+<html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="portfolio new001.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>PORT<span>FOLIO</span></h1><br>
+        
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>HI ! THERE IM VIGNESH MANIMEHAN </h2>
+                <p>I'm a passionate web developer who loves creating beautiful and functional websites.</p>
+                <a href="#projects" class="btn">View My Work</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="panda.png" alt="Profile Picture">
+                <p>Hello! I'm a web developer with expertise in HTML, CSS, JavaScript, and more. I enjoy turning ideas into reality through clean and efficient code. Let's build something amazing together!</p>
+                I believe that every project is an opportunity to push boundaries and make a meaningful impact. 
+    Throughout my work, I strive to maintain a balance between artistic expression and technical precision, 
+    ensuring each result is not only visually appealing but also functional. I am constantly learning and evolving, 
+    embracing new challenges, and staying curious about the latest industry trends.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="https://c8.alamy.com/comp/K3NHFR/presentation-of-project-management-areas-of-knowledge-such-as-cost-K3NHFR.jpg" alt="Project 1" class="zoom">
+                
+                    <h3>Project 1</h3>
+                    <a href="https://github.com/vickysweet98/vignesh-manimehan.git">project view</a>
+                    <p>Description</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJPLfoJWYvfytIjpguCD-W66nggokOGhpbOA&s" alt="Project 2" class="zoom" class="zoom">
+                    <h3>Project 2</h3>
+                    <a href=""> project view</a>
+                    <p>Description</p>
+                </div>
+                <div class="project-card">
+                    <img src="https://thumbs.dreamstime.com/b/booking-movie-tickets-online-modern-colorful-flat-design-style-illustration-high-quality-composition-laptop-website-151209919.jpg" alt="Project 3" class="zoom">
+                    <h3>Project 3</h3>
+                    <a href="">project view</a>
+                    <p>Description</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+
+                    <i class="fab fa-html5"></i>
+                    <h3 class="red">HTML5</h3>
+                </div>
+
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3 class="blue">CSS3</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3 class="orange">JavaScript</h3>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3 class="green">React</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="ENTER NAME " required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="ENTER EMAIL" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="ENTER TEXT" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025  vignesh manimehan. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/vickysweet98/vignesh-manimehan.git"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vignesh-manimehan-48a436204/"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        const mobileMenu = document.getElementById('mobile-menu');
+        const navUl = document.querySelector('nav ul');
+
+        mobileMenu.addEventListener('click', () => {
+            navUl.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
